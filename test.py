@@ -33,8 +33,8 @@ cat = Q_Agent(env, alpha = 0.1, nA = 4)
 mouse = Q_Agent(env, alpha = 0.1, nA = 4)
 
 #load the policy
-cat.change_policy('policy 6/policy_cat_6.pickle')
-mouse.change_policy('policy 6/policy_mouse_6.pickle')
+cat.change_policy('Policies/policy 6/policy_cat_6.pickle')
+mouse.change_policy('Policies/policy 6/policy_mouse_6.pickle')
 
 #helpful function
 def show_info(cheese, mouse):
